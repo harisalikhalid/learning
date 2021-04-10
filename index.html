@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<head>
+    <title></title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        #div1{
+            width: 100px;
+            height: 100px;
+            background-color: cadetblue;
+            position: absolute;
+            top: 30px;
+            z-index: 3;
+        }
+        #div2{
+
+            width: 100px;
+            height: 100px;
+            background-color:crimson;
+            position: absolute;
+            left: 30px;
+            z-index: 2;
+        }
+        #image{
+            height: 100vh;
+            width: 100vw;
+            position: fixed;
+            background-image: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/mata-atlantica-atlantic-forest-in-brazil-royalty-free-image-935746242-1567619461.jpg");
+            z-index: 1;
+       }
+    </style>
+</head>
+
+<body>
+    <div id="div1">
+        Rafique
+    </div>
+    <div id="div2">
+        Fazeel Ahmed Khan
+    </div>
+    <div id="image">This is the image</div>
+</body>
+
+</html>
